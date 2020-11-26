@@ -22,16 +22,16 @@ main{
 }
 .circle-top{
     position: absolute;
-    top: -55rem;
-    left: -30rem;
+    bottom: 37%;
+    right: 53%;
 }
 .circle-bottom{
     position: absolute;
-    bottom: -68rem;
-    right: -25rem;
+    top: 50%;
+    left: 48%;
 }
 .card{
-    width: 31rem;
+    min-width: 30rem;
     height: 33rem;
     background-color: white;
     overflow: hidden;
@@ -89,3 +89,41 @@ p{
     font-size: 1rem;
     padding: 0.5rem 0rem 2rem 0rem;
 }
+
+/*responsive*/
+/* @media (max-width: 667px){
+    main{
+        background-color: cornflowerblue;
+    }
+    .circle-top{
+        position: absolute;
+        top: -55rem;
+        left: -30rem;
+    }
+    .circle-bottom{
+        position: absolute;
+        bottom: -68rem;
+        right: -25rem;
+    }
+}
+@media (max-width: 1199.98px) { 
+    .circle-top{
+        position: absolute;
+        top: -65rem;
+        left: -40rem;
+    }
+    .circle-bottom{
+        position: absolute;
+        bottom: -72rem;
+        right: -28rem;
+    }
+}
+@media (max-width: 991.98px) { 
+
+ }
+@media (max-width: 767.98px) { 
+
+ }
+@media (max-width: 575.98px) { 
+
+ } */
